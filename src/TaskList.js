@@ -58,7 +58,7 @@ const TaskList = ({ tasks, setTasks }) => {
     };
 
     return (
-        <div>
+        <div className='beforeCard'>
             {tasks.map(task => (
                 <div key={task.id} className="card">
                     {editingTask && editingTask.id === task.id ? (

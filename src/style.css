@@ -13,8 +13,14 @@ body {
     min-height: 100vh;
 }
 
+.beforeCard {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .card {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
